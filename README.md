@@ -4,7 +4,9 @@
 <p align="center">
   <a href="mailto:muttaqimuhammad@gmail.com"><img src="https://img.shields.io/badge/Email-muttaqimuhammad@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://botgify.com"><img src="https://img.shields.io/badge/Website-botgify.com-0A66C2?style=flat&logo=googlechrome&logoColor=white" alt="Website"/></a>
-  <a href="https://www.linkedin.com/in/muhammad-muttaqi"><img src="https://img.shields.io/badge/LinkedIn-Muhammad%20Muttaqi-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https:/www.linkedin.com/in/muhammad-muttaqi-b91082201
+
+"><img src="https://img.shields.io/badge/LinkedIn-Muhammad%20Muttaqi-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
 
 ---
