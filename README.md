@@ -24,12 +24,13 @@ I design LLM-powered systems that real organizations put in front of users — a
 ## 🔦 Featured Projects
 
 | Project | What it is | Stack |
-| --- | --- | --- |
-| 🤖 **Botgify — RAG Chatbots** | Production RAG chatbots + analytics dashboard; deployed at government scale | `RAG` · `Node` · `React` · `MongoDB` |
-| 🧠 **LLMs from Scratch** | BPE tokenizer, Word2Vec, a decoder-only GPT (~10.8M params, val loss 4.34 → 1.58) & LoRA — from scratch | `Python` · `PyTorch` · `NumPy` |
-| 📊 **ML Algorithms from Scratch** | Naive Bayes (~94.7%), regression, decision trees, and an FCNN hitting ~97.6% on MNIST | `Python` · `NumPy` · `PyTorch` |
-| 🌐 **Networks & Distributed Systems** | TCP chat, a reliable UDP transport layer, routing protocols & a Chord-style DHT | `Python` · `Sockets` · `TCP/UDP` |
-| 🗂️ **Social-Media Backend** | Custom data structures (AVL/BST, hash tables, heaps) + graph algorithms, fully tested | `C++` · `DSA` |
+|---|---|---|
+| 🤖 **[Botgify — RAG Chatbots](https://github.com/muttaqi123/botgify-case-study)** | Production RAG chatbot + analytics dashboard; deployed govt-scale — 8,445 queries / 7,276 sessions in month one | RAG · Node · React · MongoDB |
+| 🧠 **[GPT Language Model from Scratch](https://github.com/muttaqi123/gpt-from-scratch)** | Decoder-only transformer, multi-head attention, 10.8M params (val loss 4.34→1.58) | Python · PyTorch |
+| 🎯 **[LoRA Fine-Tuning](https://github.com/muttaqi123/lora-finetuning)** | Low-Rank Adaptation from scratch (test acc 30.1%→34.2%), <1% of params trained | Python · PyTorch · Hugging Face |
+| 🔤 **[NLP: BPE Tokenizer & Word2Vec](https://github.com/muttaqi123/nlp-from-scratch)** | Subword tokenizer + Skip-gram (SGNS) embeddings from scratch | Python · NumPy |
+| 📊 **[ML Algorithms from Scratch](https://github.com/muttaqi123/ml-from-scratch)** | Naive Bayes ~94.7%, regression, trees, FCNN ~97.6% on MNIST | Python · NumPy · PyTorch |
+| 🌐 **[Chord DHT & Routing Protocols](https://github.com/muttaqi123/networks-distributed)** | Fault-tolerant DHT + Dijkstra/Bellman-Ford routing over sockets | Python · Sockets |
 
 ---
 
