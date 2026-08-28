@@ -15,6 +15,7 @@ I design LLM-powered systems that real organizations put in front of users — a
 
 - 🚀 **Co-Founder @ [Botgify](https://botgify.com)** — RAG chatbots & business automation. Shipped a production chatbot for the **Punjab Food Authority** (government client) handling **8,445 queries** across **7,276 sessions** in its first month.
 - 🧠 Currently going deep on **LLMs, RAG, and agentic systems**.
+- 🔗 Also ship **data-engineering / entity-resolution** work — most recently a pipeline that deduplicates **1.7M** messy CRM records for [Rozee.pk](https://github.com/muttaqi123/rozee-data-dedup) at a total LLM cost of **~$11**.
 - 🎓 **B.Sc (Honors) Computer Science @ LUMS** (Dean's Honour List), specializing in AI.
 - 💬 Ask me about **RAG pipelines, transformers, LoRA fine-tuning**, or **full-stack (MERN)**.
 - 📫 Reach me: **muttaqimuhammad@gmail.com** · 🌐 **[botgify.com](https://botgify.com)**
@@ -26,11 +27,11 @@ I design LLM-powered systems that real organizations put in front of users — a
 | Project | What it is | Stack |
 |---|---|---|
 | 🤖 **[Botgify — RAG Chatbots](https://github.com/muttaqi123/botgify-case-study)** | Production RAG chatbot + analytics dashboard; deployed govt-scale — 8,445 queries / 7,276 sessions in month one | RAG · Node · React · MongoDB |
-| 🧠 **[GPT Language Model from Scratch](https://github.com/muttaqi123/gpt-from-scratch)** | Decoder-only transformer, multi-head attention, 10.8M params (val loss 4.34→1.58) | Python · PyTorch |
-| 🎯 **[LoRA Fine-Tuning](https://github.com/muttaqi123/lora-finetuning)** | Low-Rank Adaptation from scratch (test acc 30.1%→34.2%), <1% of params trained | Python · PyTorch · Hugging Face |
-| 🔤 **[NLP: BPE Tokenizer & Word2Vec](https://github.com/muttaqi123/nlp-from-scratch)** | Subword tokenizer + Skip-gram (SGNS) embeddings from scratch | Python · NumPy |
-| 📊 **[ML Algorithms from Scratch](https://github.com/muttaqi123/ml-from-scratch)** | Naive Bayes ~94.7%, regression, trees, FCNN ~97.6% on MNIST | Python · NumPy · PyTorch |
-| 🌐 **[Chord DHT & Routing Protocols](https://github.com/muttaqi123/networks-distributed)** | Fault-tolerant DHT + Dijkstra/Bellman-Ford routing over sockets | Python · Sockets |
+| 🔗 **[Rozee Entity Resolution](https://github.com/muttaqi123/rozee-data-dedup)** | Dedupes **1.7M** free-text company & school names for a live CRM. Local-first matching sends only ~1% of decisions to an LLM — **~$11** total spend. 676 tests, self-auditing | Python · pandas · sentence-transformers · Streamlit |
+| 🧠 **[LLMs from Scratch](https://github.com/muttaqi123/llms-from-scratch)** | BPE tokenizer, Word2Vec, a decoder-only GPT (~10.8M params, val loss 4.34→1.58) & LoRA fine-tuning | Python · PyTorch |
+| 📊 **[ML Algorithms from Scratch](https://github.com/muttaqi123/ml-algorithms-from-scratch)** | Naive Bayes, regression, decision trees & an FCNN (~97.6% on MNIST) | Python · NumPy · PyTorch |
+| 🌐 **[Networks & Distributed Systems](https://github.com/muttaqi123/networks-distributed-systems)** | TCP chat, reliable UDP transport, routing protocols & a Chord-style DHT | Python · Sockets |
+| 💾 **[Social Media Backend](https://github.com/muttaqi123/social-media-backend)** | Social-network backend implementing core data structures & algorithms from scratch | C++ |
 
 ---
 
