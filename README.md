@@ -3,7 +3,6 @@
 
 <p align="center">
   <a href="mailto:muttaqimuhammad@gmail.com"><img src="https://img.shields.io/badge/Email-muttaqimuhammad@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://botgify.com"><img src="https://img.shields.io/badge/Website-botgify.com-0A66C2?style=flat&logo=googlechrome&logoColor=white" alt="Website"/></a>
   <a href="https:/www.linkedin.com/in/muhammad-muttaqi-b91082201
 
 "><img src="https://img.shields.io/badge/LinkedIn-Muhammad%20Muttaqi-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -13,12 +12,12 @@
 
 I design LLM-powered systems that real organizations put in front of users — and I build them from first principles too (transformers, tokenizers, and fine-tuning from scratch).
 
-- 🚀 **Co-Founder @ [Botgify](https://botgify.com)** — RAG chatbots & business automation. Shipped a production chatbot for the **Punjab Food Authority** (government client) handling **8,445 queries** across **7,276 sessions** in its first month.
+- 🚀 **Founder @ AsaanBook** — building booking and business-automation software.
 - 🧠 Currently going deep on **LLMs, RAG, and agentic systems**.
 - 🔗 Also ship **data-engineering / entity-resolution** work — most recently a pipeline that deduplicates **1.7M** messy CRM records for **Rozee.pk** at a total LLM cost of **~$11**. *(Private client repo — happy to walk through it.)*
 - 🎓 **B.Sc (Honors) Computer Science @ LUMS** (Dean's Honour List), specializing in AI.
 - 💬 Ask me about **RAG pipelines, transformers, LoRA fine-tuning**, or **full-stack (MERN)**.
-- 📫 Reach me: **muttaqimuhammad@gmail.com** · 🌐 **[botgify.com](https://botgify.com)**
+- 📫 Reach me: **muttaqimuhammad@gmail.com**
 
 ---
 
@@ -26,12 +25,11 @@ I design LLM-powered systems that real organizations put in front of users — a
 
 | Project | What it is | Stack |
 |---|---|---|
-| 🤖 **[Botgify — RAG Chatbots](https://github.com/muttaqi123/botgify-case-study)** | Production RAG chatbot + analytics dashboard; deployed govt-scale — 8,445 queries / 7,276 sessions in month one | RAG · Node · React · MongoDB |
-| 🔗 **Rozee Entity Resolution** <sub>(private — client work)</sub> | Dedupes **1.7M** free-text company & school names for a live CRM. Local-first matching sends only ~1% of decisions to an LLM — **~$11** total spend. 676 tests, self-auditing | Python · pandas · sentence-transformers · Streamlit |
-| 🧠 **[LLMs from Scratch](https://github.com/muttaqi123/llms-from-scratch)** | BPE tokenizer, Word2Vec, a decoder-only GPT (~10.8M params, val loss 4.34→1.58) & LoRA fine-tuning | Python · PyTorch |
-| 📊 **[ML Algorithms from Scratch](https://github.com/muttaqi123/ml-algorithms-from-scratch)** | Naive Bayes, regression, decision trees & an FCNN (~97.6% on MNIST) | Python · NumPy · PyTorch |
-| 🌐 **[Networks & Distributed Systems](https://github.com/muttaqi123/networks-distributed-systems)** | TCP chat, reliable UDP transport, routing protocols & a Chord-style DHT | Python · Sockets |
-| 💾 **[Social Media Backend](https://github.com/muttaqi123/social-media-backend)** | Social-network backend implementing core data structures & algorithms from scratch | C++ |
+| 🔗 **Rozee Entity Resolution** <sub>(private — client work)</sub> | Dedupes **1.7M** free-text company & school names for a live CRM. Local-first matching sends only ~1% of decisions to an LLM — **~$11** total spend. 691 tests, self-auditing | Python · pandas · sentence-transformers · Streamlit |
+| 🧠 **LLMs from Scratch** <sub>(private)</sub> | BPE tokenizer, Word2Vec, a decoder-only GPT (~10.8M params, val loss 4.34→1.58) & LoRA fine-tuning | Python · PyTorch |
+| 📊 **ML Algorithms from Scratch** <sub>(private)</sub> | Naive Bayes, regression, decision trees & an FCNN (~97.6% on MNIST) | Python · NumPy · PyTorch |
+| 🌐 **Networks & Distributed Systems** <sub>(private)</sub> | TCP chat, reliable UDP transport, routing protocols & a Chord-style DHT | Python · Sockets |
+| 💾 **Social Media Backend** <sub>(private)</sub> | Social-network backend implementing core data structures & algorithms from scratch | C++ |
 
 ---
 
