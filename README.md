@@ -1,22 +1,20 @@
 <h1 align="center">Hi, I'm Muhammad Muttaqi 👋</h1>
-<h3 align="center">AI / LLM Engineer — I build production RAG & LLM applications</h3>
+<h3 align="center">AI / LLM Engineer — I train, evaluate and ship LLM systems</h3>
 
 <p align="center">
   <a href="mailto:muttaqimuhammad@gmail.com"><img src="https://img.shields.io/badge/Email-muttaqimuhammad@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https:/www.linkedin.com/in/muhammad-muttaqi-b91082201
-
-"><img src="https://img.shields.io/badge/LinkedIn-Muhammad%20Muttaqi-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/muhammad-muttaqi-b91082201"><img src="https://img.shields.io/badge/LinkedIn-Muhammad%20Muttaqi-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
 
 ---
 
 I design LLM-powered systems that real organizations put in front of users — and I build them from first principles too (transformers, tokenizers, and fine-tuning from scratch).
 
-- 🚀 **Founder @ AsaanBook** — building booking and business-automation software.
-- 🧠 Currently going deep on **LLMs, RAG, and agentic systems**.
-- 🔗 Also ship **data-engineering / entity-resolution** work — most recently a pipeline that deduplicates **1.7M** messy CRM records for **Rozee.pk** at a total LLM cost of **~$11**. *(Private client repo — happy to walk through it.)*
+- 🚀 **Founder @ AsaanBook** — a multi-tenant WhatsApp chatbot and booking platform used by clinics, consultancies and a serviced-apartment business (1,100+ tests).
+- 🧠 Currently working on **LLM fine-tuning, DPO and reasoning search**.
+- 🔗 Also ship **data-engineering / entity-resolution** work — most recently a system that deduplicates **722K+** company and institution records for **Rozee.pk** at a total LLM cost of **$11.54**. *(Private client repo — happy to walk through it.)*
 - 🎓 **B.Sc (Honors) Computer Science @ LUMS** (Dean's Honour List), specializing in AI.
-- 💬 Ask me about **RAG pipelines, transformers, LoRA fine-tuning**, or **full-stack (MERN)**.
+- 💬 Ask me about **transformers, DPO, LoRA fine-tuning, RAG pipelines**, or **full-stack (MERN)**.
 - 📫 Reach me: **muttaqimuhammad@gmail.com**
 
 ---
@@ -25,7 +23,10 @@ I design LLM-powered systems that real organizations put in front of users — a
 
 | Project | What it is | Stack |
 |---|---|---|
-| 🔗 **Rozee Entity Resolution** <sub>(private — client work)</sub> | Dedupes **1.7M** free-text company & school names for a live CRM. Local-first matching sends only ~1% of decisions to an LLM — **~$11** total spend. 691 tests, self-auditing | Python · pandas · sentence-transformers · Streamlit |
+| 🎯 **Instruction Tuning & DPO** <sub>(private)</sub> | Fine-tuned Qwen2.5-0.5B with self-written SFT and DPO training loops; the DPO model beat SFT with a 56.7% win rate over 1,200 judged comparisons (p = 0.008) | PyTorch · Hugging Face · TRL · PEFT |
+| 🔍 **Reasoning Search with a Process Reward Model** <sub>(private)</sub> | Used a 7B model to score reasoning steps from a 1.5B model and pick the best solution, compared with greedy decoding and majority voting on GSM8K | PyTorch · Transformers · bitsandbytes |
+| 🏗️ **Transformer from Scratch** <sub>(private)</sub> | Llama-style 19.3M-parameter model built without torch.nn layers or torch.optim, trained on 655M tokens (validation perplexity 4.48) | Python · PyTorch · einops |
+| 🔗 **Rozee Entity Resolution** <sub>(private — client work)</sub> | Dedupes **722K+** company & institution records, merging 39,479 duplicate companies. Local-first matching sends only ~1% of decisions to an LLM — **$11.54** total spend. 691 tests, self-auditing | Python · pandas · sentence-transformers · Streamlit |
 | 🧠 **LLMs from Scratch** <sub>(private)</sub> | BPE tokenizer, Word2Vec, a decoder-only GPT (~10.8M params, val loss 4.34→1.58) & LoRA fine-tuning | Python · PyTorch |
 | 📊 **ML Algorithms from Scratch** <sub>(private)</sub> | Naive Bayes, regression, decision trees & an FCNN (~97.6% on MNIST) | Python · NumPy · PyTorch |
 | 🌐 **Networks & Distributed Systems** <sub>(private)</sub> | TCP chat, reliable UDP transport, routing protocols & a Chord-style DHT | Python · Sockets |
@@ -38,6 +39,7 @@ I design LLM-powered systems that real organizations put in front of users — a
 **AI / ML**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -54,6 +56,8 @@ I design LLM-powered systems that real organizations put in front of users — a
 
 **Full-Stack & Tools**
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -77,4 +81,4 @@ I design LLM-powered systems that real organizations put in front of users — a
 
 ---
 
-<sub>💡 Open to remote AI/LLM engineering roles and contract work.</sub>
+<sub>💡 Open to AI/LLM research internships for summer 2027.</sub>
