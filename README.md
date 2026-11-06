@@ -13,8 +13,8 @@ I design LLM-powered systems that real organizations put in front of users — a
 - 🚀 **Founder @ AsaanBook** — a multi-tenant WhatsApp chatbot and booking platform used by clinics, consultancies and a serviced-apartment business (1,100+ tests).
 - 🧠 Currently working on **LLM fine-tuning, DPO and reasoning search**.
 - 🔗 Also ship **data-engineering / entity-resolution** work — most recently a system that deduplicates **722K+** company and institution records for **Rozee.pk** at a total LLM cost of **$11.54**. *(Private client repo — happy to walk through it.)*
-- 🎓 **B.Sc (Honors) Computer Science @ LUMS** (Dean's Honour List), specializing in AI.
-- 💬 Ask me about **transformers, DPO, LoRA fine-tuning, RAG pipelines**, or **full-stack (MERN)**.
+- 🎓 **B.Sc Computer Science @ LUMS** (Dean's Honour List), specializing in AI.
+- 💬 Ask me about **transformers, DPO and LoRA fine-tuning**, or **full-stack (MERN)**.
 - 📫 Reach me: **muttaqimuhammad@gmail.com**
 
 ---
@@ -23,10 +23,10 @@ I design LLM-powered systems that real organizations put in front of users — a
 
 | Project | What it is | Stack |
 |---|---|---|
-| 🎯 **Instruction Tuning & DPO** <sub>(private)</sub> | Fine-tuned Qwen2.5-0.5B with self-written SFT and DPO training loops; the DPO model beat SFT with a 56.7% win rate over 1,200 judged comparisons (p = 0.008) | PyTorch · Hugging Face · TRL · PEFT |
+| 🎯 **Instruction Tuning & DPO** <sub>(private)</sub> | Fine-tuned Qwen2.5-0.5B with self-written SFT and DPO training loops; on a 300-prompt safety set the HH-RLHF DPO model beat SFT with a 56.7% win rate (p = 0.008), or 54.3% (p = 0.048) after removing position bias | PyTorch · Hugging Face · TRL · PEFT |
 | 🔍 **Reasoning Search with a Process Reward Model** <sub>(private)</sub> | Used a 7B model to score reasoning steps from a 1.5B model and pick the best solution, compared with greedy decoding and majority voting on GSM8K | PyTorch · Transformers · bitsandbytes |
 | 🏗️ **Transformer from Scratch** <sub>(private)</sub> | Llama-style 19.3M-parameter model built without torch.nn layers or torch.optim, trained on 655M tokens (validation perplexity 4.48) | Python · PyTorch · einops |
-| 🔗 **Rozee Entity Resolution** <sub>(private — client work)</sub> | Dedupes **722K+** company & institution records, merging 39,479 duplicate companies. Local-first matching sends only ~1% of decisions to an LLM — **$11.54** total spend. 691 tests, self-auditing | Python · pandas · sentence-transformers · Streamlit |
+| 🔗 **Rozee Entity Resolution** <sub>(private — client work)</sub> | Dedupes **722K+** company & institution records, merging 39,479 duplicate company records. Local-first matching sends only ~1% of decisions to an LLM — **$11.54** total spend. 691 tests, self-auditing | Python · pandas · sentence-transformers · Streamlit |
 | 🧠 **LLMs from Scratch** <sub>(private)</sub> | BPE tokenizer, Word2Vec, a decoder-only GPT (~10.8M params, val loss 4.34→1.58) & LoRA fine-tuning | Python · PyTorch |
 | 📊 **ML Algorithms from Scratch** <sub>(private)</sub> | Naive Bayes, regression, decision trees & an FCNN (~97.6% on MNIST) | Python · NumPy · PyTorch |
 | 🌐 **Networks & Distributed Systems** <sub>(private)</sub> | TCP chat, reliable UDP transport, routing protocols & a Chord-style DHT | Python · Sockets |
