@@ -1,5 +1,5 @@
-<h1 align="center">Hi, I'm Muhammad Muttaqi 👋</h1>
-<h3 align="center">AI / LLM Engineer — I train, evaluate and ship LLM systems</h3>
+<h1 align="center">Hi, I'm Muhammad Muttaqi</h1>
+<h3 align="center">AI / LLM Engineer: I train, evaluate and ship LLM systems</h3>
 
 <p align="center">
   <a href="mailto:muttaqimuhammad@gmail.com"><img src="https://img.shields.io/badge/Email-muttaqimuhammad@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -8,33 +8,33 @@
 
 ---
 
-I design LLM-powered systems that real organizations put in front of users — and I build them from first principles too (transformers, tokenizers, and fine-tuning from scratch).
+I build LLM systems that real businesses use, and I also like building the pieces from scratch (transformers, tokenizers, fine-tuning).
 
-- 🚀 **Founder @ AsaanBook** — a multi-tenant WhatsApp chatbot and booking platform used by clinics, consultancies and a serviced-apartment business (1,100+ tests).
-- 🧠 Currently working on **LLM fine-tuning, DPO and reasoning search**.
-- 🔗 Also ship **data-engineering / entity-resolution** work — most recently a system that deduplicates **722K+** company and institution records for **Rozee.pk** at a total LLM cost of **$11.54**. *(Private client repo — happy to walk through it.)*
-- 🎓 **B.Sc Computer Science @ LUMS** (Dean's Honour List), specializing in AI.
-- 💬 Ask me about **transformers, DPO and LoRA fine-tuning**, or **full-stack (MERN)**.
-- 📫 Reach me: **muttaqimuhammad@gmail.com**
+- **Founder of AsaanBook**, a multi-tenant WhatsApp chatbot and booking platform used by clinics, consultancies and a serviced-apartment business (1,100+ tests).
+- Currently working on **LLM fine-tuning, DPO and reasoning search**.
+- Also work on **data engineering and entity resolution**, most recently a system that deduplicates **722K+** company and institution records for **Rozee.pk** at a total LLM cost of **$11.54**. (Private client repo, happy to walk through it.)
+- **B.Sc Computer Science at LUMS** (Dean's Honour List), specializing in AI.
+- Ask me about **transformers, DPO and LoRA fine-tuning**, or **full-stack (MERN)**.
+- Reach me at **muttaqimuhammad@gmail.com**
 
 ---
 
-## 🔦 Featured Projects
+## Featured Projects
 
 | Project | What it is | Stack |
 |---|---|---|
-| 🎯 **Instruction Tuning & DPO** <sub>(private)</sub> | Fine-tuned Qwen2.5-0.5B with self-written SFT and DPO training loops; on a 300-prompt safety set the HH-RLHF DPO model beat SFT with a 54.3% win rate (p = 0.048; 56.7% before removing position bias) | PyTorch · Hugging Face · TRL · PEFT |
-| 🔍 **Reasoning Search with a Process Reward Model** <sub>(private)</sub> | Used a 7B model to score reasoning steps from a 1.5B model and pick the best solution, compared with greedy decoding and majority voting on GSM8K | PyTorch · Transformers · bitsandbytes |
-| 🏗️ **Transformer from Scratch** <sub>(private)</sub> | Llama-style 19.3M-parameter model built without torch.nn layers or torch.optim, trained on 655M tokens (validation perplexity 4.48) | Python · PyTorch · einops |
-| 🔗 **Rozee Entity Resolution** <sub>(private — client work)</sub> | Dedupes **722K+** company & institution records, merging 39,479 duplicate company records. Local-first matching sends only ~1% of decisions to an LLM — **$11.54** total spend. 691 tests, self-auditing | Python · pandas · sentence-transformers · Streamlit |
-| 🧠 **LLMs from Scratch** <sub>(private)</sub> | BPE tokenizer, Word2Vec, a decoder-only GPT (~10.8M params, val loss 4.34→1.58) & LoRA fine-tuning | Python · PyTorch |
-| 📊 **ML Algorithms from Scratch** <sub>(private)</sub> | Naive Bayes, regression, decision trees & an FCNN (~97.6% on MNIST) | Python · NumPy · PyTorch |
-| 🌐 **Networks & Distributed Systems** <sub>(private)</sub> | TCP chat, reliable UDP transport, routing protocols & a Chord-style DHT | Python · Sockets |
-| 💾 **Social Media Backend** <sub>(private)</sub> | Social-network backend implementing core data structures & algorithms from scratch | C++ |
+| **Instruction Tuning and DPO** <sub>(private)</sub> | Fine-tuned Qwen2.5-0.5B with self-written SFT and DPO training loops; on a 300-prompt safety set the HH-RLHF DPO model beat SFT with a 54.3% win rate (p = 0.048; 56.7% before removing position bias) | PyTorch, Hugging Face, TRL, PEFT |
+| **Reasoning Search with a Process Reward Model** <sub>(private)</sub> | Used a 7B model to score reasoning steps from a 1.5B model and pick the best solution, compared with greedy decoding and majority voting on GSM8K | PyTorch, Transformers, bitsandbytes |
+| **Transformer from Scratch** <sub>(private)</sub> | Llama-style 19.3M-parameter model built without torch.nn layers or torch.optim, trained on 655M tokens (validation perplexity 4.48) | Python, PyTorch, einops |
+| **Rozee Entity Resolution** <sub>(private, client work)</sub> | Dedupes **722K+** company & institution records, merging 39,479 duplicate company records. Local-first matching sends only about 1% of decisions to an LLM, for **$11.54** total spend. 691 tests | Python, pandas, sentence-transformers, Streamlit |
+| **LLMs from Scratch** <sub>(private)</sub> | BPE tokenizer, Word2Vec, a decoder-only GPT (~10.8M params, val loss 4.34 to 1.58) and LoRA fine-tuning | Python, PyTorch |
+| **ML Algorithms from Scratch** <sub>(private)</sub> | Naive Bayes, regression, decision trees & an FCNN (~97.6% on MNIST) | Python, NumPy, PyTorch |
+| **Networks and Distributed Systems** <sub>(private)</sub> | TCP chat, reliable UDP transport, routing protocols & a Chord-style DHT | Python, Sockets |
+| **Social Media Backend** <sub>(private)</sub> | Social-network backend implementing core data structures & algorithms from scratch | C++ |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **AI / ML**
 
@@ -68,7 +68,7 @@ I design LLM-powered systems that real organizations put in front of users — a
 
 ---
 
-## 📈 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=muttaqi123&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
@@ -81,4 +81,4 @@ I design LLM-powered systems that real organizations put in front of users — a
 
 ---
 
-<sub>💡 Open to AI/LLM research internships for summer 2027.</sub>
+<sub>Open to AI/LLM research internships for summer 2027.</sub>
