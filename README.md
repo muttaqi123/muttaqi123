@@ -23,7 +23,7 @@ I design LLM-powered systems that real organizations put in front of users — a
 
 | Project | What it is | Stack |
 |---|---|---|
-| 🎯 **Instruction Tuning & DPO** <sub>(private)</sub> | Fine-tuned Qwen2.5-0.5B with self-written SFT and DPO training loops; on a 300-prompt safety set the HH-RLHF DPO model beat SFT with a 56.7% win rate (p = 0.008), or 54.3% (p = 0.048) after removing position bias | PyTorch · Hugging Face · TRL · PEFT |
+| 🎯 **Instruction Tuning & DPO** <sub>(private)</sub> | Fine-tuned Qwen2.5-0.5B with self-written SFT and DPO training loops; on a 300-prompt safety set the HH-RLHF DPO model beat SFT with a 54.3% win rate (p = 0.048; 56.7% before removing position bias) | PyTorch · Hugging Face · TRL · PEFT |
 | 🔍 **Reasoning Search with a Process Reward Model** <sub>(private)</sub> | Used a 7B model to score reasoning steps from a 1.5B model and pick the best solution, compared with greedy decoding and majority voting on GSM8K | PyTorch · Transformers · bitsandbytes |
 | 🏗️ **Transformer from Scratch** <sub>(private)</sub> | Llama-style 19.3M-parameter model built without torch.nn layers or torch.optim, trained on 655M tokens (validation perplexity 4.48) | Python · PyTorch · einops |
 | 🔗 **Rozee Entity Resolution** <sub>(private — client work)</sub> | Dedupes **722K+** company & institution records, merging 39,479 duplicate company records. Local-first matching sends only ~1% of decisions to an LLM — **$11.54** total spend. 691 tests, self-auditing | Python · pandas · sentence-transformers · Streamlit |
