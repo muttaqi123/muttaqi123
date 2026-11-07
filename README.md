@@ -24,7 +24,7 @@ I build LLM systems that real businesses use, and I also like building the piece
 | Project | What it is | Stack |
 |---|---|---|
 | **Instruction Tuning and DPO** <sub>(private)</sub> | Fine-tuned Qwen2.5-0.5B with self-written SFT and DPO training loops; on a 300-prompt safety set the HH-RLHF DPO model beat SFT with a 54.3% win rate (p = 0.048; 56.7% before removing position bias) | PyTorch, Hugging Face, TRL, PEFT |
-| **Reasoning Search with a Process Reward Model** <sub>(private)</sub> | Used a 7B model to score reasoning steps from a 1.5B model and pick the best solution, compared with greedy decoding and majority voting on GSM8K | PyTorch, Transformers, bitsandbytes |
+| **Reasoning Search with a Process Reward Model** <sub>(private)</sub> | Used a 7B model to score reasoning steps from a 1.5B model and pick the best of 5 samples; on 50 GSM8K problems this beat majority voting over the same 5 samples (up to 80% vs. 72%), but voting over 15 samples reached 82% in less than half the time | PyTorch, Transformers, bitsandbytes |
 | **Transformer from Scratch** <sub>(private)</sub> | Llama-style 19.3M-parameter model built without torch.nn layers or torch.optim, trained on 655M tokens (validation perplexity 4.48) | Python, PyTorch, einops |
 | **Rozee Entity Resolution** <sub>(private, client work)</sub> | Dedupes **722K+** company & institution records, merging 39,479 duplicate company records. Local-first matching sends only about 1% of decisions to an LLM, for **$11.54** total spend. 691 tests | Python, pandas, sentence-transformers, Streamlit |
 | **LLMs from Scratch** <sub>(private)</sub> | BPE tokenizer, Word2Vec, a decoder-only GPT (~10.8M params, val loss 4.34 to 1.58) and LoRA fine-tuning | Python, PyTorch |
